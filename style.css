@@ -165,10 +165,87 @@ main p {
   padding-right: 100px;
 }
 
-.arrow-btn a {
+.arrow-btn {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.left a {
+  color: var(--color-yellow);
+  border-color: var(--color-yellow);
+  border-radius: 50px;
+  border-style: solid;
+  padding: 12px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+
+}
+
+.right  a {
   background-color: var(--color-yellow);
   padding: 12px 32px;
   border-radius: 50px;
   text-decoration: none;
   color: var(--color-white);
 }
+
+.merch {
+  background-color: var(--color-green);
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+.merch h2 {
+  color: var(--color-white);
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+
+.merch p {
+  color: var(--color-white);
+}
+
+.merch span {
+  color: var(--color-yellow);
+}
+
+.merch-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.merch-content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.merch-cards article {
+  width: 350px;
+}
+
+.merch-cards article img {
+  width: 350px;
+  background-color: var(--color-white);
+  border-radius: 50px;
+}
+
+.merch-cards  {
+  display: flex;
+  align-items: end;
+  gap: 50px;
+  justify-content: end;
+}
+
+.merch-cards h4 {
+  font-size: var(--fontSize-h4);
+  color: var(--color-white);
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
