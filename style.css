@@ -244,12 +244,6 @@ main p {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-
-.understanding span {
-  color: var(--color-yellow);
-  
-}
-
 .understanding a {
   text-decoration: none;
   color: var(--color-white);
@@ -284,5 +278,51 @@ main p {
 .understanding-content {
   display: flex;
   justify-content: space-between;
+}
+
+.journey span {
+  color: var(--color-yellow);
+  
+}
+
+.journey a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: var(--fontSize-p);
+  background-color: var(--color-yellow);
+  padding: 16px 32px;
+  border-radius: 50px;
+}
+
+.journey {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  background-color: var(--color-green);
+}
+
+.journey p {
+  margin-bottom: 48px;
+  color: var(--color-white);
+}
+
+.journey h2 {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: var(--color-white);
+}
+
+.journey img {
+  width: 500px;
+  border-radius: 50px;
+}
+
+.journey-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.journey-text {
+  margin-right: 100px;
 }
 
