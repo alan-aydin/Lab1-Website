@@ -151,7 +151,7 @@ main p {
 
 .helping img {
   border-radius: 50px;
-  width: 500px;
+  width: 400px;
 }
 
 .gridimg {
@@ -168,7 +168,6 @@ main p {
 .arrow-btn {
   display: flex;
   gap: 20px;
-  
 }
 
 .left a {
@@ -179,10 +178,9 @@ main p {
   padding: 12px 32px;
   border-radius: 50px;
   text-decoration: none;
-
 }
 
-.right  a {
+.right a {
   background-color: var(--color-yellow);
   padding: 12px 32px;
   border-radius: 50px;
@@ -195,7 +193,6 @@ main p {
   margin-top: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
-  
 }
 
 .merch h2 {
@@ -233,7 +230,7 @@ main p {
   border-radius: 50px;
 }
 
-.merch-cards  {
+.merch-cards {
   display: flex;
   align-items: end;
   gap: 50px;
@@ -248,4 +245,44 @@ main p {
   margin-bottom: 16px;
 }
 
+.understanding span {
+  color: var(--color-yellow);
+  
+}
+
+.understanding a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: var(--fontSize-p);
+  background-color: var(--color-yellow);
+  padding: 16px 32px;
+  border-radius: 50px;
+
+}
+
+.understanding {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.understanding p {
+  margin-bottom: 48px;
+}
+
+.understanding h2 {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.understanding img {
+  width: 500px;
+  border-radius: 50px;
+  margin-right: 100px;
+}
+
+.understanding-content {
+  display: flex;
+  justify-content: space-between;
+}
 
