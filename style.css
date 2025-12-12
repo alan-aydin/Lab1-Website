@@ -371,13 +371,23 @@ main p {
   border-bottom: 1px solid;
   border-color: var(--color-green);
 }
-
-.panel.open {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .panel p {
   color: var(--color-green);
   margin: 15px 15px;
 }
+
+footer {
+  background-color: var(--color-green);
+  margin-top: 100px;
+  padding: 100px;
+}
+
+.icons a{
+  color: var(--color-white);
+}
+
+footer p {
+  color: var(--color-white);
+}
+
+
