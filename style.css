@@ -156,12 +156,11 @@ main p {
 
 .gridimg {
   display: grid;
-  gap: 20px;
 }
 
 .imgstudying {
   display: flex;
-  gap: 20px;
+  gap: 35px;
   padding-right: 100px;
 }
 
@@ -251,7 +250,6 @@ main p {
   background-color: var(--color-yellow);
   padding: 16px 32px;
   border-radius: 50px;
-
 }
 
 .understanding {
@@ -278,11 +276,11 @@ main p {
 .understanding-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .journey span {
   color: var(--color-yellow);
-  
 }
 
 .journey a {
@@ -320,9 +318,66 @@ main p {
 .journey-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .journey-text {
   margin-right: 100px;
 }
 
+.faq {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.faq-wrapper {
+  width: 50%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.accordion {
+  width: 100%;
+  background: #fff;
+  color: var(--color-green);
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  border-bottom: 2px solid var(--color-green);
+  text-align: left;
+  font-size: 1em;
+  position: relative;
+}
+
+.accordion:after {
+  content: "\02795";
+  font-size: 1em;
+  color: var(--color-green);
+  float: right;
+}
+
+.accordion.active:after {
+  content: "\2796";
+  color: var(--color-green);
+}
+
+.panel {
+  background: #fff;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.25s ease-out, padding 0.25s;
+  padding: 0 20px;
+  border-bottom: 1px solid;
+  border-color: var(--color-green);
+}
+
+.panel.open {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.panel p {
+  color: var(--color-green);
+  margin: 15px 15px;
+}
